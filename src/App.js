@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ProductDetails from "./pages/ProductDetails";
+import cssVariables from "./constants/cssVariables.css";
+import "./App.css";
+import "../src/fonts/montserrat/Montserrat-Regular.ttf";
+import { UserProvider } from "./Context/UserContext";
 function App() {
+  const user = { quantity: 0 };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserProvider>
+      <ProductDetails />
+    </UserProvider>
   );
 }
 

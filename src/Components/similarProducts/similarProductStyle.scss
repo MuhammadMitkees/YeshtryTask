@@ -1,0 +1,21 @@
+.mainContainerSimilar {
+  margin: auto;
+  margin-top: 65px;
+  max-width: 1200px;
+
+  h3 {
+    font-size: 28px;
+    color: var(--secondary-color);
+    font-family: "Montserrat-SemiBold";
+  }
+  h4 {
+    font-size: 22px;
+    color: #575756;
+    font-family: "Montserrat-Light";
+  }
+}
+.similarProductsCard {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

@@ -1,0 +1,18 @@
+.sliderContainer {
+  width: 1250px;
+  position: relative;
+  background-color: #d9d9d9;
+  height: 3px;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+.overlayLine {
+  position: absolute;
+  width: 800px;
+  background-color: var(--secondary-color);
+  height: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

@@ -1,0 +1,67 @@
+.cartContainer {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  display: flex;
+  .transparentDiv {
+    background-color: #000000;
+    opacity: 0.25;
+    width: 70%;
+  }
+  .cartDiv {
+    background-color: #ffffff;
+    width: 30%;
+    position: relative;
+    padding: 0 33px;
+    h4 {
+      font-size: 28px;
+      color: var(--secondary-color);
+      text-align: center;
+      margin-top: 55px;
+      font-family: "Montserrat-SemiBold";
+    }
+    h4 + p {
+      font-size: 18px;
+      font-family: "Montserrat-SemiBold";
+    }
+  }
+  .cartDiv > button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+.totalTxt {
+  font-size: 22px;
+  font-family: "Montserrat-SemiBold";
+  color: #1d1d1b;
+  text-align: center;
+}
+.reviewAndCheckoutDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  button {
+    width: 196px;
+    padding: 15px 0;
+    border-radius: 24px;
+    border: none;
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px;
+  }
+  :first-child {
+    background-color: var(--primary-color);
+  }
+  :last-child {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+  }
+}
+.emptyCartTxt {
+  text-align: center;
+}

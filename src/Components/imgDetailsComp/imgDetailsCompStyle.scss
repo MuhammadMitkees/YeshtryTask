@@ -1,0 +1,137 @@
+.detailTxt {
+  font-size: 18px;
+  font-family: "Montserrat-semiBold";
+}
+.genderTxt {
+  color: #a7a9ac;
+  font-size: 16px;
+  font-family: "Montserrat-semiBold";
+}
+.singleStar {
+  margin-right: 5px;
+}
+.starDiv,
+.priceDiv,
+.sizeCircleDiv,
+.colorCircleDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  align-items: center;
+}
+.priceDiv,
+.sizeDiv,
+.colorDiv {
+  border-bottom: 0.5px solid #d9d9d9;
+}
+.sizeCircleDiv,
+.colorCircleDiv {
+  margin-bottom: 24px;
+}
+.ratingTxt {
+  font-size: 17px;
+  font-family: "Montserrat-semiBold";
+}
+.ratingCountTxt {
+  font-size: 15px;
+  color: #575756;
+}
+.priceTxt {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-family: "Montserrat-semiBold";
+}
+.priceTxt span {
+  font-size: 20px;
+  font-family: "Montserrat-Regular";
+}
+.discountTxt {
+  text-decoration: line-through;
+  color: #a7a9ac;
+  font-family: "Montserrat-semiBold";
+}
+.discountPercentTxt {
+  background-color: var(--primary-color);
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: "Montserrat-Regular";
+}
+.sizeDiv > p,
+.colorDiv > p,
+.quantityDiv > p {
+  font-size: 18px;
+  font-family: "Montserrat-semiBold";
+}
+.selectedSizeCircle,
+.sizeCircle {
+  border-radius: 50%;
+  border: 0.5px solid #d9d9d9;
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selectedSizeCircle {
+  background-color: #ececec;
+}
+.selectedSizeCircle > p,
+.sizeCircle > p {
+  font-size: 10px;
+  margin: 0;
+  color: var(--secondary-color);
+}
+.selectedSizeCircle > p {
+  color: black;
+}
+.selectedColorCircle {
+  border: 1px solid #542e90;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.quantityBtnDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: #d9d9d9;
+  width: 250px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.quantityBtnDiv button {
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: var(--primary-color);
+}
+.quantityBtnDiv p {
+  font-family: "Montserrat-Bold";
+  color: var(--secondary-color);
+}
+.quantityAddtoCartDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.addToCartBtn,
+.pickupBtn {
+  width: 250px;
+  border: none;
+  padding: 20px 0;
+  border-radius: 30px;
+  font-family: "Montserrat-SemiBold";
+  cursor: pointer;
+}
+.addToCartBtn {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.pickupBtn {
+  background-color: var(--primary-color);
+  color: black;
+}

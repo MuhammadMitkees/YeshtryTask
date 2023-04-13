@@ -1,0 +1,32 @@
+.mainContainerImageComp {
+  display: flex;
+  flex-direction: column;
+}
+.mainImgDiv {
+  width: 570px;
+  position: relative;
+}
+.mainImg {
+  width: 100%;
+}
+.mainImgAbsltImg {
+  position: absolute;
+  top: 33px;
+  left: 33px;
+}
+.subImgDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+.subImgStyle {
+  width: 120px;
+  margin-right: 10px;
+}
+.firstSubImg {
+  margin-left: 10px;
+}

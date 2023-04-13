@@ -1,0 +1,82 @@
+.similarCardContainer {
+  padding: 8px;
+  border: 1px solid #ececec;
+  width: 270px;
+}
+.mainCardImg {
+  width: 100%;
+}
+.mainCardTxt {
+  font-size: 14px;
+  font-family: "Montserrat-SemiBold";
+}
+.cardCaption {
+  padding: 0 10px;
+}
+.priceAndDiscount {
+  display: flex;
+  flex-direction: column;
+}
+.discountDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.discPercTxt {
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  font-size: 10px;
+  font-family: "Montserrat-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+.discountDiv p {
+  margin: 0;
+}
+.priceAndDiscount > p {
+  font-size: 20px;
+  font-family: "Montserrat-SemiBold";
+  color: var(--secondary-color);
+  margin: 0;
+}
+.priceBeforeTxt span,
+.priceAndDiscount > p span {
+  font-size: 14px;
+  font-family: "Montserrat-Regular";
+}
+.priceBeforeTxt {
+  text-decoration: line-through;
+  color: #a7a9ac;
+  font-family: "Montserrat-SemiBold";
+}
+.priceAndLogo {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+}
+.ratingDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  align-items: center;
+}
+.starsRatingDiv + p {
+  font-family: "Montserrat-SemiBold";
+  font-size: 14px;
+}
+.pickUpAndFrom {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+.pickUpAndFrom p {
+  font-family: "Montserrat-Medium";
+  font-size: 10px;
+}
+.pickUpAndFrom p span {
+  font-family: "Montserrat-SemiBold";
+  font-size: 12px;
+}

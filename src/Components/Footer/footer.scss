@@ -1,0 +1,133 @@
+footer {
+  background-color: #3c3c3b;
+}
+.footerContainer {
+  max-width: 1200px;
+  padding: 45px 0 25px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.mainFooterDiv {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 5px;
+}
+.yeshtryFooterDiv {
+  padding-right: 50px;
+  border-right: 0.25px solid #868686;
+  width: 40%;
+}
+
+.yeshtryFooterDiv > p {
+  font-family: "Montserrat-Light";
+  color: #ffffff;
+}
+.subscribeFooterDiv {
+  padding-left: 50px;
+  width: 50%;
+  h4 {
+    font-family: "Montserrat-Regular";
+    font-size: 18px;
+    color: #ffffff;
+  }
+}
+.subscribeInputDiv {
+  position: relative;
+  padding: 0;
+  input {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  input::placeholder {
+    color: var(--secondary-color);
+    font-family: "Montserrat-Light";
+    font-size: 12px;
+  }
+  button {
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    margin: auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: "Montserrat-Medium";
+    font-size: 10px;
+    padding: 15px;
+    img {
+      margin-left: 10px;
+    }
+  }
+}
+.linksFooterDiv {
+  display: flex;
+  .AboutUsList {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-right: 0.25px solid #868686;
+    li {
+      margin-bottom: 10px;
+      width: 280px;
+      a {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .smList {
+    display: flex;
+    flex-direction: column;
+    li {
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .AboutUsList li a,
+  .smList a {
+    font-family: "Montserrat-Regular";
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .smList a {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+.footerOfFooter {
+  display: flex;
+  border-top: 0.25px solid #868686;
+  margin-top: 30px;
+  padding: 25px 0;
+  p {
+    font-family: "Montserrat-Light";
+    color: #ffffff;
+  }
+  div {
+    width: 380px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .rightsTxt {
+    width: 40%;
+    padding-right: 50px;
+  }
+  .nasnavTxt {
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 10px;
+    }
+  }
+}

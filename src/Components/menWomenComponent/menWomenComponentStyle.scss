@@ -1,0 +1,23 @@
+.bgContainer {
+  background-color: #000000;
+  .menWomenMainContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.singleLinkStyle {
+  color: #ffffff;
+  font-size: 17px;
+  text-decoration: none;
+}
+.lastSingleLink {
+  color: #f11133;
+}

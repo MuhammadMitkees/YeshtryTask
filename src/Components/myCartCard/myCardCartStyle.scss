@@ -1,0 +1,42 @@
+.cartCardCont {
+  border: 0.75px solid #ececec;
+  border-radius: 7px;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  //   align-items: center;
+}
+.priceAndRemoveDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-family: "Montserrat-SemiBold";
+    color: var(--secondary-color);
+    font-size: 20px;
+    margin: 0;
+    span {
+      font-size: 14px;
+      font-family: "Montserrat-Regular";
+    }
+  }
+  button {
+    padding: 5px 19px;
+    border: none;
+    border-radius: 12px;
+    font-size: 10px;
+    font-family: "Montserrat-SemiBold";
+    background-color: var(--primary-color);
+  }
+}
+.cardCartDesc {
+  font-size: 14px;
+  font-family: "Montserrat-SemiBold";
+  color: #1d1d1b;
+}
+.cardCartDesc + p {
+  font-size: 11px;
+  color: #3c3c3b;
+  font-family: "Montserrat-SemiBold";
+}

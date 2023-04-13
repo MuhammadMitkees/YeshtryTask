@@ -1,0 +1,55 @@
+.navbarBgDiv {
+  background-color: var(--primary-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .mainContainer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+    ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      li {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+.burgerIconBtn {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  span {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .secMenuSpan {
+    width: 20px;
+  }
+}
+.valentineNavCont {
+  display: flex;
+  align-items: center;
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+.navIcons {
+  margin-right: 10px;
+}
+.navIcons + p {
+  font-weight: bold;
+}
